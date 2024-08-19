@@ -44,14 +44,35 @@
         </div>
 
         <ul class="opções">
-            <li class="opções__item"><a href="#" class="opções__link">Categorias</a></li>
+            <input type="checkbox" id="opções-menu" class="opções__botão">
+            <label for="opções-menu">
+                <li class="opções__item">Categorias</li>
+            </label>
+            <ul class="lista-menu">
+                <li class="lista-menu__item">
+                    <a href="#" class="lista-menu__link">Programação</a>
+                </li>
+                <li class="lista-menu__item">
+                    <a href="#" class="lista-menu__link">Front-end</a>
+                </li>
+                <li class="lista-menu__item">
+                    <a href="#" class="lista-menu__link">Infraestrutura</a>
+                </li>
+                <li class="lista-menu__item">
+                    <a href="#" class="lista-menu__link">Business</a>
+                </li>
+                <li class="lista-menu__item">
+                    <a href="#" class="lista-menu__link">Design & UX</a>
+                </li>
+            </ul>
             <li class="opções__item"><a href="#" class="opções__link">Favoritos</a></li>
             <li class="opções__item"><a href="#" class="opções__link">Minha Estante</a></li>
-            
+
         </ul>
 
         <div class="container">
-            <a href="#"><img src="./imagens/Favoritos.svg" alt="Meus favoritos" class="container__imagem container__imagem-transparente"></a>
+            <a href="#"><img src="./imagens/Favoritos.svg" alt="Meus favoritos"
+                    class="container__imagem container__imagem-transparente"></a>
             <a href="#"><img src="./imagens/Compras.svg" alt="Carrinho de compras" class="container__imagem"></a>
             <a href="#"><img src="./imagens/Usuario.svg" alt="Meu perfil" class="container__imagem"></a>
         </div>
@@ -114,15 +135,15 @@
             <div class="swiper-wrapper">
                 <!-- Slides -->
                 <div class="swiper-slide"><img src="./imagens/Javascript.svg"
-                    alt="Livro sobre Java script da alurabooks"></div>
+                        alt="Livro sobre Java script da alurabooks"></div>
                 <div class="swiper-slide"><img src="./imagens/Guia Front-end.svg"
                         alt="Livro sobre Front End da alurabooks"></div>
                 <div class="swiper-slide"><img src="./imagens/Lideranc╠ºa.svg"
                         alt="Livro sobre liderança da alurabooks"></div>
                 <div class="swiper-slide"><img src="./imagens/ApacheKafka.svg" alt="Livro sobre Apachekafka"></div>
-                <div class="swiper-slide"><img src="./imagens/Portugol.svg"
-                        alt="Livro sobre Java script da alurabooks"></div>
-                
+                <div class="swiper-slide"><img src="./imagens/Portugol.svg" alt="Livro sobre Java script da alurabooks">
+                </div>
+
             </div>
 
             <!-- If we need navigation buttons -->
@@ -137,7 +158,8 @@
                     <img src="./imagens/Estrelinhas.svg" alt="">
                     <h3 class="descricao__titulo">Autora do mês</h3>
                     <h2 class="descricao__titulo-autora">Juliana Agarikov</h2>
-                    <p class="descricao__texto">Analista de sistemas e escritora, Juliana é especialista em Front-End.</p>
+                    <p class="descricao__texto">Analista de sistemas e escritora, Juliana é especialista em Front-End.
+                    </p>
                 </div>
                 <img src="./imagens/Escritora.svg" alt="Logo tecnologia Angular" class="descricao__imagem">
             </div>
@@ -152,40 +174,40 @@
     </section>
     <section class="topicos">
         <h2 class="topicos__titulo">Tópicos visitados Recentemente</h2>
-            <ul class="topicos__lista">
-                <li class="topicos__item">
-                    <a href="#" class="topicos__link">Android</a>
-                </li>
-                <li class="topicos__item">
-                    <a href="#" class="topicos__link">Marketing Digital</a>
-                </li>
-                <li class="topicos__item">
-                    <a href="#" class="topicos__link">Agile</a>
-                </li>
-                <li class="topicos__item">
-                    <a href="#" class="topicos__link">Statups</a>
-                </li>
-                <li class="topicos__item">
-                    <a href="#" class="topicos__link">HTML & CSS</a>
-                </li>
-                <li class="topicos__item">
-                    <a href="#" class="topicos__link">Python</a>
-                </li>
-                <li class="topicos__item">
-                    <a href="#" class="topicos__link">GO</a>
-                </li>
-                <li class="topicos__item">
-                    <a href="#" class="topicos__link">Java</a>
-                </li>
-            </ul>
-        
+        <ul class="topicos__lista">
+            <li class="topicos__item">
+                <a href="#" class="topicos__link">Android</a>
+            </li>
+            <li class="topicos__item">
+                <a href="#" class="topicos__link">Marketing Digital</a>
+            </li>
+            <li class="topicos__item">
+                <a href="#" class="topicos__link">Agile</a>
+            </li>
+            <li class="topicos__item">
+                <a href="#" class="topicos__link">Statups</a>
+            </li>
+            <li class="topicos__item">
+                <a href="#" class="topicos__link">HTML & CSS</a>
+            </li>
+            <li class="topicos__item">
+                <a href="#" class="topicos__link">Python</a>
+            </li>
+            <li class="topicos__item">
+                <a href="#" class="topicos__link">GO</a>
+            </li>
+            <li class="topicos__item">
+                <a href="#" class="topicos__link">Java</a>
+            </li>
+        </ul>
+
     </section>
     <section class="contato">
         <h2 class="contato__titulo">Fique por dentro das novidades!</h2>
         <p class="contato__texto">Atualizações de e-books, novos livros, promoções e outros.</p>
         <input type="email" placeholder="Cadastre seu e-mail" class="contato__email">
     </section>
-    <hr/>
+    <hr />
     <footer class="rodape">
         <h2 class="rodape__titulo">Grupo Alura</h2>
     </footer>
