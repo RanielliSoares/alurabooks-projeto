@@ -102,11 +102,7 @@
         color: var(--preto);
     }
 
-    .container__imagem-transparente {
-        display: none;
-    }
-
-    .cabecalho__menu-hamburguer {
+    .container__imagem-transparente, .opções__botão, .cabecalho__menu-hamburguer {
         display: none;
     }
 
@@ -115,9 +111,6 @@
         width: auto;
     }
 
-    .opções__botão {
-        display: none;
-    }
 }
 
 @media screen and (min-width: 1728px) {
